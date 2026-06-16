@@ -517,34 +517,7 @@ heart.addEventListener("click",()=>{
 
             },
 
-            {
+            
 
-                transform:`translate(${(Math.random()-0.5)*500}px,${(Math.random()-0.5)*500}px) scale(0)`,
-
-                opacity:0const bgMusic = document.getElementById("bgMusic");
-
-document.addEventListener("click", () => {
-    bgMusic.play();
-}, { once: true });
-
-            }
-
-        ],{
-
-            duration:1500
-
-        });
-
-        setTimeout(()=>{
-
-            spark.remove();
-
-        },1500);
-
-    }
-
-});
-
-}
 
 console.log("❤️ Proyecto Aurora cargado correctamente.");
